@@ -4,7 +4,7 @@
 * Desribes the activity being performed by the subject
 * Transformed from original ID in y_train.txt and y_test.txt to activity description sourced from activity_lables.txt
 
-## Subject								[[Numeric]]
+## Subject								[Numeric]
 * Identifier of the subject performing the activity
 
 ## tBodyAcc-mean()-X						[Numeric]
