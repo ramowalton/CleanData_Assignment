@@ -1,9 +1,10 @@
 # Data Dictionary - Getting and Cleaning Data Course Project
 
-## Activity								Character
+## Activity								[Character]
 * Desribes the activity being performed by the subject
 * Transformed from original ID in y_train.txt and y_test.txt to activity description sourced from activity_lables.txt
-## Subject								Numeric(1)
+
+## Subject								[Numeric]
 * Identifier of the subject performing the activity
 ## tBodyAcc-mean()-X						Numeric
 * Mean of tBodyAcc-mean()-X by Activity and Subject
