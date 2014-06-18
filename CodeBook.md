@@ -243,3 +243,24 @@
 
 ## fBodyBodyGyroJerkMag-meanFreq()		[Numeric]
 * Mean of fBodyBodyGyroJerkMag-meanFreq() by Activity and Subject
+
+## angle(tBodyAccMean,gravity)			[Numeric]
+* Mean of angle(tBodyAccMean,gravity) by Activity and Subject
+
+## angle(tBodyAccJerkMean),gravityMean)	[Numeric]
+* Mean of angle(tBodyAccJerkMean),gravityMean) by Activity and Subject
+
+## angle(tBodyGyroMean,gravityMean)		[Numeric]
+* Mean of angle(tBodyGyroMean,gravityMean) by Activity and Subject
+
+## angle(tBodyGyroJerkMean,gravityMean)	[Numeric]
+* Mean of angle(tBodyGyroJerkMean,gravityMean) by Activity and Subject
+
+## angle(X,gravityMean)					[Numeric]
+* Mean of angle(X,gravityMean) by Activity and Subject
+
+## angle(Y,gravityMean)					[Numeric]
+* Mean of angle(Y,gravityMean) by Activity and Subject
+
+## angle(Z,gravityMean)					[Numeric]
+* Mean of angle(Z,gravityMean) by Activity and Subject
