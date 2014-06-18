@@ -1,5 +1,6 @@
 # Data Dictionary - Getting and Cleaning Data Course Project
-This data dictionary describes the variables contained within the tidy.txt file created via run_analysis.R
+This data dictionary describes the variables contained within the tidy.txt file created via run_analysis.R.
+For details on how tidy.txt was generated please refer to README.md
 
 ## Activity								[Character]
 * Desribes the activity being performed by the subject
