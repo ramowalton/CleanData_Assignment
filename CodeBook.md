@@ -3,7 +3,15 @@ This data dictionary describes the variables contained within the tidy.txt file 
 For details on how tidy.txt was generated please refer to README.md
 
 ## Activity								[Character]
-* Desribes the activity being performed by the subject
+* Desribes the activity being performed by the subject:
+
+** WALKING
+** WALKING_UPSTAIRS
+** WALKING_DOWNSTAIRS
+** SITTING
+** STANDING
+** LAYING
+
 * Transformed from original ID in y_train.txt and y_test.txt to activity description sourced from activity_lables.txt
 
 ## Subject								[Numeric]
