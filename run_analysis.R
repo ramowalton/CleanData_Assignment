@@ -51,8 +51,8 @@ cleanData <- function() {
 	
 	#filter for mean and stddev variables only
 	filteredCols <- c("Subject") 							#add first column manually
-	matches <- grep("std", names(combined))					#find std columns
-	matches <- c(matches, grep("mean", names(combined)))	#find mean columns
+	matches <- grep("mean|Mean", names(combined))			#find any column referencing mean (accounting for differing case)
+	matches <- c(matches, grep("std", names(combined)))		#find any column referencing std
 	
 	for (n in 1:length(names(combined))) {					#create list of desired columns (std and mean)
 		if (n %in% matches) {
